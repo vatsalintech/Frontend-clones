@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 30px;
+}
+
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+#intro{
+    height: 45%;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#intro h1{
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -5px;
+}
+
+#place{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#hero-image{
+    height: 120%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+
+#about{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#about h2{
+    width: 60%;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -3px;
+}
+
+#aboutp2{
+    width: 30%;
+    height: 100%;
+    padding: 0 50px;
+    border-left: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#aboutp2>h3{
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 100%;
+    margin-right: 3px;
+}
+
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#work1{
+    height: 100%;
+    width: 30%;
+    border-right: 1.5px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+#work1 h3, #work1 i{
+    font-size: 30px;
+}
+
+#work2{
+    height: 100%;
+    width: 70%;
+}
+
+.w2p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.w2p:nth-child(1){
+    border-bottom: 1.5px solid black;
+}
+
+.w2p .elem{
+    width: 50%;
+    height: 100%;
+}
+
+.w2p .elem:nth-child(1){
+    border-right: 1.5px solid black;
+}
+
+.w2p .elem{
+    padding-left: 20px;
+}
+
+.elem h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.elem p{
+    font-size: 20px;
+    margin-top: 3px;
+}
