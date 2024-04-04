@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="main w-full h-screen bg-zinc-400">
+        <div class="bg w-full h-full">
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDA%3D" alt="">
+        </div>
+        <div class="content absolute top-0 left-0 w-full h-full">
+            <div class="nav h-[20%] w-full text-xl flex items-center justify-between py-5 uppercase text-white">
+                <div class="logo flex items-center pl-16 gap-10">
+                    <div class="logo h-16 w-16 rounded-full border-4 border-white">
+                        <div class="logo h-8 w-16 rounded-t-full translate-x-6 translate-y-3 bg-white"></div>
+                    </div>
+                    <div class="name">Your Logo</div>
+                </div>
+                <div class="rgt flex items-center justify-around gap-5 pr-16">
+                    <div class="list flex items-center justify-around tracking-tight">
+                        <div class="listelem p-4 underline underline-offset-4 decoration-sky-500 decoration-4">Home</div>
+                        <div class="listelem p-4">Tours</div>
+                        <div class="listelem p-4">Explore</div>
+                        <div class="listelem p-4">About Us</div>
+                        <div class="listelem p-4">Contact</div>
+                    </div>
+                    <div class="search">
+                        <i class="ri-search-line p-4 text-xl"></i>
+                    </div>
+                    <div class="socials flex text-xl">
+                        <i class="p-2 ri-facebook-circle-line"></i>
+                        <i class="p-2 ri-instagram-line"></i>
+                        <i class="p-2 ri-linkedin-box-line"></i>
+                        <i class="p-2 ri-twitter-x-line"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="home w-full h-[80%]  ">
+                <div class="top flex">
+                    <div class="lft w-[40%] pl-20 pr-5 py-16 flex flex-col gap-1.5 text-[#074177]">
+                        <div>
+                            <h3 class="text-xl font-semibold">Travel website</h3>
+                        </div>
+                        <div>
+                            <h3 class="uppercase text-5xl font-bold">never stop exploring the world.</h3>
+                        </div>
+                        <div class="font-semibold">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias tenetur ratione temporibus nulla eligendi voluptatum neque. Sit aliquam deserunt sint.</p>
+                        </div>
+                        <div class="mt-3">
+                            <h3 class="uppercase text-white font-medium  rounded-3xl w-fit py-1 px-6 bg-teal-600">Learn more</h3>
+                        </div>
+                    </div>
+                    <div class="rgt w-[60%] overflow-hidden text-white relative">
+                        <div class="cards flex h-[62%] gap-7 justify-end translate-x-10 mt-24 uppercase">
+                            <div class="card w-[23%] rounded-3xl overflow-hidden relative">
+                                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJlYWNofGVufDB8fDB8fHww" alt="">
+                                <h3 class="text-3xl absolute bottom-[5%] left-[10%] tracking-tight">beach</h3>
+                            </div>
+                            <div class="card w-[23%] rounded-3xl overflow-hidden relative">
+                                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1577702066866-6c8897d06443?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGlzbGFuZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                                <h3 class="text-3xl absolute bottom-[5%] left-[10%] tracking-tight">nature</h3>
+                            </div>
+                            <div class="card w-[23%] rounded-3xl overflow-hidden relative">
+                                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D" alt="">
+                                <h3 class="text-3xl absolute bottom-[5%] left-[10%] tracking-tight">hotel</h3>
+                            </div>
+                            <div class="card w-[23%] rounded-3xl overflow-hidden">
+                                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1562095241-8c6714fd4178?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fG9jZWFufGVufDB8fDB8fHww" alt="">
+                            </div>
+                        </div>
+                        <div class="scroller flex items-center gap-5 w-full text-2xl px-12 absolute bottom-0">
+                            <div class="arrows flex gap-3">
+                                <div class="lft">
+                                    <i class="border-2 rounded-full border-white p-1 ri-arrow-left-s-line"></i>
+                                </div>
+                                <div class="rgt">
+                                    <i class="border-2 rounded-full border-white p-1 ri-arrow-right-s-line"></i>
+                                </div>
+                            </div>
+                            <div class="line border-2 w-[80%] h-px"></div>
+                            <div class="number text-4xl">01</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
