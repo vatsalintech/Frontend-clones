@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Reddit+Mono:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main w-full h-screen">
+        <div class="h-[20%] w-full text-xl flex items-center justify-around py-5 text-green-500">
+            <div class="logo text-3xl">
+                <div class="name">Inspirasign</div>
+            </div>
+            <div class="list flex items-center justify-around tracking-tight bg-green-500 text-white uppercase">
+                <div class="listelem p-4 border-white border-r-2">Home</div>
+                <div class="listelem p-4 border-white border-r-2">About</div>
+                <div class="listelem p-4 border-white border-r-2">Product</div>
+                <div class="listelem p-4 border-white border-r-2">Services</div>
+                <div class="listelem p-4">Contact us</div>
+            </div>
+            <div class="search">
+                <i class="ri-search-line p-4 text-4xl"></i>
+            </div>
+        </div>
+        <div class="page flex w-full">
+            <div class="content w-[40%] flex flex-col justify-center px-20 gap-2 py-10">
+                <div class="heading caligraphy">
+                    <h3 class="text-8xl font-semibold leading-1">Nature <br>Discovery</h3>
+                </div>
+                <div class="line border-2 border-green-500 w-[75%] h-1 rounded-xl"></div>
+                <div class="para mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio voluptate eos nostrum accusamus quaerat magni molestiae ducimus ullam labore amet.</div>
+                <div class="btn bg-green-500 px-4 py-1 rounded-3xl text-white w-fit mt-5">
+                    <h2>Read More</h2>
+                </div>
+            </div>
+            <div class="photocontainer w-[60%] flex justify-center items-center overflow-hidden rounded-xl">
+                <div class="imgcntr h-[90%] w-[90%] custom-shape-divider-top-1712074356">
+                    <div class="relative img w-full h-full bg-no-repeat object-cover bg-[url('https://wallpapersmug.com/large/6422be/nature-scenery-digital-art.jpg')] ">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer w-full flex items-center justify-between text-xl px-20 mt-6">
+            <div class="lft text-2xl text-green-500">
+                <i class="p-2 ri-facebook-circle-line"></i>
+                <i class="p-2 ri-instagram-line"></i>
+                <i class="p-2 ri-twitter-x-line"></i>
+            </div>
+            <div class="ctr flex items-center text-2xl justify-center gap-8 text-black -translate-x-10">
+                <div class="prev flex items-center justify-center gap-2">
+                    <i class="ri-arrow-left-line"></i>
+                    <h3>Prev</h3>
+                </div>
+                <div class="next flex items-center justify-center gap-2">
+                    <h3>Next</h3>
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+            <div class="rgt"></div>
+        </div>
+    </div>
+</body>
+</html>
