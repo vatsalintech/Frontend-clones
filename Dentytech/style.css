@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#nav-p1 h3{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 2px 5px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav-p1 i{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 2px 5px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav-p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-p2 h1{
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav-p2 i{
+    font-size: 22px;
+}
+
+#nav-p3 button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+#btn1{
+    background-color: white;
+}
+
+#btn2{
+    background-color: red;
+    color: white;
+}
+
+#midintro{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btmleft{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 15px;
+}
+
+#arrowcircle{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+#downarrow{
+    
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.btmsocial{
+    position: absolute;
+    bottom: 9%;
+    font-size: 17px;
+}
+
+#fb{
+    right: 4%;
+}
+
+#insta{
+    right: 7%;
+}
+
+#utube{
+    right: 10%;
+}
+
+#btmright{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 15px;
+}
